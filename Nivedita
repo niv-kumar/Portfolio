@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Strategic Program Manager & Business Consultant</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Program Manager with expertise in managing large-scale projects, optimizing business processes, and driving operational efficiency.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects & Experience</h2>
+        <div class="project">
+            <h3>Project Name</h3>
+            <p>Short description of your role and achievements.</p>
+        </div>
+        <div class="project">
+            <h3>Another Project</h3>
+            <p>Key highlights and impact.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>📩 Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>🔗 LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+/* General Styles */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #bb86fc;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #bb86fc;
+}
+
+.project {
+    background-color: #242424;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 80%;
+}
+
+/* Contact */
+a {
+    color: #03dac6;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    padding: 15px;
+    margin-top: 20px;
+}
+
